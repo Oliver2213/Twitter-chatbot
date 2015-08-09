@@ -3,7 +3,7 @@
 This is a small, simple chatter bot using [The awesome twitter library Tweepy](https://github.com/tweepy/tweepy) and [this simple yet fun chatter bot](https://github.com/gunthercox/ChatterBot)  
 ##Setup
 To get twitter-chatbot up and talking, do the following:  
-* Install tweepy, iether with [pip](http://pip.readthedocs.org/en/latest/installing.html#install-pip), or it's [git hub page](https://github.com/tweepy/tweepy]
+* Install tweepy, iether with [pip](http://pip.readthedocs.org/en/latest/installing.html#install-pip), or it's [git hub page](https://github.com/tweepy/tweepy])
 * Install chatterbot, iether with [pip](http://pip.readthedocs.org/en/latest/installing.html#install-pip), or it's [git hub page](https://github.com/gunthercox/ChatterBot)
 * Get a twitter app from [apps.twitter.com](https://apps.twitter.com), and optionally get a different account to use it with
 * Modify the apps permission level to "Read and write", so it can send direct messages (This is what the bot is set up to do now, though of course you can change it)
