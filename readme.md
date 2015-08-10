@@ -10,6 +10,7 @@ To get twitter-chatbot up and talking, do the following:
 * Put you're app's API keys in a file called keys.py like:
   * c_key = 'Consumer key here'
   * c_secret = 'Consumer secret here'
+* Run the included authorize.py tool, it will help you get you're tokens if you didn't put them in keys.py.
 * You can also optionally put tokens in (if you had twitter generate them), as:
   * token = 'Token here'
   * token_secret = 'Token secret here'
