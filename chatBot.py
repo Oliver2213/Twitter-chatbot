@@ -11,7 +11,7 @@ auth.set_access_token(token, token_secret)
 api = tweepy.API(auth) # Get our API object
 
 #Set up our chat bot:
-chatbot = ChatBot("Terminal", storage_adapter="chatterbot.adapters.storage.JsonDatabaseAdapter", logic_adapter="chatterbot.adapters.logic.ClosestMatchAdapter", database="database.db")
+chatbot = ChatBot("Terminal", storage_adapter="chatterbot.adapters.storage.JsonDatabaseAdapter", logic_adapter="chatterbot.adapters.logic.ClosestMeaningAdapter", database="database.db", io_adapter="chatterbot.adapters.io.NoOutputAdapter")
 
 class StdOutListener(tweepy.StreamListener):
     """Class that handles tweepy events.
